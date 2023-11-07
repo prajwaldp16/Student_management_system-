@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page with Buttons</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+            background-color: #66a0ff;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 20px;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .button {
+            background-color: #66a0ff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #0073e6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Our Student Page</h1>
+
+    <p>This is a sample home page with some extra content. You can add more text and elements here.</p>
+
+     <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.squarespace-cdn.com%2Fcontent%2Fv1%2F57d976c59f7456a5d86cbf3c%2F1677781307902-U3BXI5CBX51J94D2E5FF%2FRegister%2Bnow%2BStudent.jpg%3Fformat%3D1500w&tbnid=sgZsfhQN2oER9M&vet=12ahUKEwiP-sWgwf-BAxWazaACHWnqA_UQMyhlegUIARC_Ag..i&imgrefurl=http%3A%2F%2Fcannp.org%2Fconference&docid=J-WC4Tb8DsqcMM&w=1500&h=970&q=student%20registration%20jpge%20formate%20&ved=2ahUKEwiP-sWgwf-BAxWazaACHWnqA_UQMyhlegUIARC_Ag" alt="Online Photo">
+
+    <div class="button-container">
+        <button class="button" onclick="location.href='register.html'">Student Register</button>
+        <button class="button" onclick="location.href='update.html'">UPDATE</button>
+        <button class="button" onclick="location.href='delete.html'">Delete</button>
+        <button class="button" onclick="location.href='displayrecord.html'">Display single student</button>
+        <button class="button" onclick="location.href='displayall.html'">Display All student</button>
+    </div>
+</body>
+</html>

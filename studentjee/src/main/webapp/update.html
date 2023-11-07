@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update  Student  detils</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+        }
+
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        /* Style for the back button */
+        .back-button {
+            position: absolute;
+            color: black;
+            top: 10px;
+            left: 10px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- Back button to redirect to the home page -->
+    <a class="back-button" href="index.html">Back</a>
+
+    <form action="Update" method="POST">
+        <h2>Update  Student  detils</h2>
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="id" required>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="age">Age:</label>
+		<select id="age" name="age" required>
+		    <option value="18">18</option>
+		    <option value="19">19</option>
+		    <option value="20">20</option>
+		    <option value="21">21</option>
+		    <option value="22">22</option>
+		    <option value="23">23</option>
+		    <option value="24">24</option>
+		    <option value="25">25</option>
+		    <option value="26">26</option>
+		    <option value="27">27</option>
+		    <option value="28">28</option>
+		    <option value="29">29</option>
+		    <option value="30">30</option>
+		    <option value="31">31</option>
+		    <option value="32">32</option>
+		    <option value="33">33</option>
+		    <option value="34">34</option>
+		    <option value="35">35</option>
+		    <option value="36">36</option>
+		    <option value="37">37</option>
+		    <option value="38">38</option>
+		    <option value="39">39</option>
+		    <option value="40">40</option>
+		    <!-- Add more age options as needed -->
+		</select>
+
+        <label for="address">Address:</label>
+		<select id="address" name="address" required>
+		    <option value="Bagalkot">Bagalkot</option>
+		    <option value="Bangalore">Bangalore</option>
+		    <option value="Belgaum">Belgaum</option>
+		    <option value="Bellary">Bellary</option>
+		    <option value="Bidar">Bidar</option>
+		    <option value="Bijapur">Bijapur</option>
+		    <option value="Chikmagalur">Chikmagalur</option>
+		    <option value="Chitradurga">Chitradurga</option>
+		    <option value="Davangere">Davangere</option>
+		    <option value="Gulbarga">Gulbarga</option>
+		    <option value="Hassan">Hassan</option>
+		    <option value="Hospet">Hospet</option>
+		    <option value="Hubli">Hubli</option>
+		    <option value="Kolar">Kolar</option>
+		    <option value="Mandya">Mandya</option>
+		    <option value="Mangalore">Mangalore</option>
+		    <option value="Mysore">Mysore</option>
+		    <option value="Raichur">Raichur</option>
+		    <option value="Shimoga">Shimoga</option>
+		    <option value="Tumkur">Tumkur</option>
+		    <!-- Add more Karnataka cities and towns as needed -->
+		</select>
+		
+		
+        <label for="dept">Department:</label>
+		<select id="dept" name="dept" required>
+		    <option value="IT">IT</option>
+		    <option value="HR">HR</option>
+		    <option value="Finance">Finance</option>
+		    <!-- Add more options as needed -->
+		</select>
+
+        <button type="submit">Register</button>
+    </form>
+    
+   
+	
+</body>
+</html>
